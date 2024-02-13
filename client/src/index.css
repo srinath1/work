@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Montserrat",sans-serif  !important;
+  font-weight: 500;
+}
+button{
+  border-radius: 1 !important;
+  height: 50px !important;
+  box-shadow: none !important;
+}
+input,select{
+  height:40px !important;
+  border-radius: 1px !important;
+  border: 1px solid lightgrey;
+  width:100% !important;
+  padding-left: 15px;
+}
+textarea{
+  border-radius: 0 !important;
+  border:1px solid gray !important
+}
+input :focus ,textarea:focus,select:focus{
+  box-shadow: none !important;
+  border: 1 solid darkgray;
+}
+.ant-form-item{
+  margin-bottom:10 !important
+}
+
+.ant-form-item-label{
+  padding: 0 !important;
+  line-height: 20px !important;
+}
+.pointer{
+  cursor: pointer;
+}
+
+table{
+  border:1px solid green !important
+}
+i{
+  font-size: 20px !important;
+}
